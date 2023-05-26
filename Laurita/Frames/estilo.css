@@ -1,0 +1,22 @@
+h1{
+	font-size:80;
+	color: blue;
+	text-align: center;
+	}
+
+hr{
+	width: 1000;
+	height: 20;
+	color: green;
+	}
+.luke{
+	font-size: 60;
+	text-transform: capitalize;
+	background-image: url(imgs/CR02.gif) ;
+	color: #000080;
+	
+}
+
+body{
+	background-image: url(imgs/pendeja.jpg);	
+}

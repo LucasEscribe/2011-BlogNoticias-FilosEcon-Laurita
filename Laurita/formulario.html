@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html40/strict.dtd">
+
+<html>
+
+<head>
+<link rel="stylesheet" href="estilo.css" media="screen" type="text/css" title="Mi hoja de estilo">
+<title>Formulario</title>
+</head>
+
+<body>
+<form name="form1" action="script.php" method="post">
+
+Nombre: <input type="text" name="nombre" value="Ponè tu nombre" maxlength="15" size="25"><br>
+Contraseña: <input type="password" name="pass" value="Ponè tu contraseña" maxlength="15" size="25"><br>
+Apellido: <input type="text" name="apellido" value="Ponè tu Apellido" maxlength="15" size="25"><br>
+Dirección: <input type="text" name="Dir" value="Ponè tu Dirección" maxlength="25" size="25"><br>
+Teléfono: <input type="text" name="tel" value="Ponè tu tel/cel" maxlength="15" size="25"><br>
+Religión: <input type="text" name="Religión" value="Ponè tu raza" maxlength="15" size="25"><br>
+Comentarios:
+<br>
+<textarea cols="40" rows="10"></textarea>
+<br>
+Masculino:<input type="radio" value="masculino" name="sexo">
+<br>
+Femenino:<input type="radio" value="femenino" name="sexo">
+<br>
+Examinar:<input type="file" method="post" enctype=”multipart/form-data” name="buscar">
+<br>
+<select name="provincia" size="3" multiple>
+	<option value="ch" selected>Chaco</option>
+	<option value="cr">Corrientes</option>
+	<option value="ros">Rosario</option>
+	
+</select>
+<br>
+
+<br>
+<input type="reset" value="Limpiar">
+<br>
+<input type="submit" value="enviar">
+
+</form>
+
+</body>
+</html>
